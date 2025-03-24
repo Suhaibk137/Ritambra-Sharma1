@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritambra Sharma - Creative Makeup Artist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Ritambra Sharma</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Ritambra Sharma</h1>
+                <h2 class="hero-subtitle">Creative Makeup Artist</h2>
+                <p>Transforming faces into art, creating fantasies beyond imagination</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Book A Consultation</a>
+                    <a href="https://wa.me/971555218283?text=I%20need%20to%20book%20your%20appointment" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Connect on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-flex">
+                <div class="about-img">
+                    <img src="about.png" alt="Ritambra Sharma">
+                </div>
+                <div class="about-content">
+                    <p>Certified Makeup Artist with extensive experience in bridal, fashion, editorial, and special effects makeup. Adept at airbrushing, HD makeup application, skincare consultation, and color theory to enhance natural beauty.</p>
+                    <p>Skilled in client consultation, cosmetic application, contouring, highlighting, and facial aesthetics. Strong expertise in hygiene & sanitation standards, beauty trends, and product knowledge.</p>
+                    <p>Passionate about delivering high-quality, customized beauty services for photoshoots, weddings, and special events. My creative approach turns makeup into art, pushing boundaries while maintaining precision and technique.</p>
+                    <p>With a background in education and economics, I bring a unique perspective to the beauty industry, combining creativity with analytical thinking and meticulous attention to detail.</p>
+                    <p>Based in Dubai, UAE, I work with clients both locally and internationally to create stunning looks tailored to their specific needs and preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="brid.png" alt="Bridal Makeup">
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-title">Bridal Makeup</h3>
+                        <p>Customized bridal makeup services tailored to your style, theme, and personality. Long-lasting looks with HD and airbrush techniques.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="editorial.png" alt="Editorial Makeup">
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-title">Editorial Makeup</h3>
+                        <p>Creative and artistic makeup for photo shoots, fashion shows, and editorial projects. Bold and innovative looks to make your concept come alive.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="cinema1.png" alt="Special Effects">
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-title">Special Effects</h3>
+                        <p>Transform with special effects makeup for films, events, or themed parties. From subtle scars to complete character transformations.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="face.png" alt="Skincare Consultation">
+                    </div>
+                    <div class="service-info">
+                        <h3 class="service-title">Skincare Consultation</h3>
+                        <p>Personalized skincare advice and routines to enhance your natural beauty and prepare your skin for makeup application.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-categories">
+                <div class="category active" data-filter="all">All</div>
+                <div class="category" data-filter="bridal">Bridal</div>
+                <div class="category" data-filter="editorial">Editorial</div>
+                <div class="category" data-filter="sfx">Special Effects</div>
+                <div class="category" data-filter="beauty">Beauty</div>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be dynamically added via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div>
+                        <h3>Bridal Makeup & HD Makeup Application</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <div>
+                        <h3>Airbrush Makeup & Special Effects (SFX)</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div>
+                        <h3>Skincare Analysis & Cosmetic Product Knowledge</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div>
+                        <h3>Color Theory, Contouring & Highlighting</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div>
+                        <h3>Makeup for Fashion & Editorial Shoots</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div>
+                        <h3>Eyebrow Shaping & Eyelash Extensions</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-pump-soap"></i>
+                    </div>
+                    <div>
+                        <h3>Hygiene & Sanitation Standards</h3>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div>
+                        <h3>Creative & Avant-garde Techniques</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"Ritambra did my bridal makeup and I couldn't have been happier! She understood exactly what I wanted and created a stunning look that lasted all day and photographed beautifully."</p>
+                    <p class="testimonial-author">- Priya S., Bridal Client</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"I worked with Ritambra on a fashion editorial shoot and her creativity was outstanding. She brought our vision to life with her makeup artistry and was professional throughout the entire shoot."</p>
+                    <p class="testimonial-author">- Maya K., Fashion Photographer</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"The special effects makeup Ritambra created for our production was incredible. Her attention to detail and ability to transform our actors exceeded our expectations."</p>
+                    <p class="testimonial-author">- Rahul M., Film Director</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"I've been going to Ritambra for all my special events. She has a remarkable talent for enhancing natural beauty while still making you feel like the best version of yourself."</p>
+                    <p class="testimonial-author">- Sarah J., Regular Client</p>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <div class="prev-btn"><i class="fas fa-chevron-left"></i></div>
+                <div class="slider-dots"></div>
+                <div class="next-btn"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certification Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education & Certifications</h2>
+            <div class="about-flex">
+                <div class="about-content">
+                    <h3>Professional Certifications</h3>
+                    <p><strong>Complete Artistic Pro Specialist in Hairstyling & Makeup Artist</strong><br>
+                       AOFM Academy of Freelance Makeup, London</p>
+                    
+                    <h3>Education</h3>
+                    <p><strong>B.Ed (Bachelor of Education)</strong><br>
+                       University of Kashmir, Jammu & Kashmir, 2022</p>
+                    
+                    <p><strong>M.Sc (Master of Science) in Economics</strong><br>
+                       Shri Mata Vaishno Devi University, Jammu & Kashmir, 2020</p>
+                    
+                    <p><strong>Higher Secondary Certificate</strong><br>
+                       Christ School, Jammu & Kashmir Board, 2014</p>
+                    
+                    <p><strong>Secondary School Certificate</strong><br>
+                       Christ School, Jammu & Kashmir Board, 2012</p>
+                </div>
+                <div class="videos-container">
+                    <div class="about-video">
+                        <video controls>
+                            <source src="VIDE01.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="about-video">
+                        <video controls>
+                            <source src="VIDEO2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Dubai, UAE</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>mailmeritambra@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+971 55 521 8283</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>@ritambrasharma_</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="bridal">Bridal Makeup</option>
+                                <option value="editorial">Editorial Makeup</option>
+                                <option value="sfx">Special Effects</option>
+                                <option value="skincare">Skincare Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" class="form-control" placeholder="Preferred Date">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Additional Details" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Ritambra Sharma</h3>
+                    <p>Professional Makeup Artist</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ritambrasharma_" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ritambra Sharma. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
